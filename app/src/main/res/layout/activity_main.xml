@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id = "@+id/l1"
+    android:background="@mipmap/backgroundapp"
+    tools:context=".MainActivity">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:text="שנה רקע"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#000000"
+            android:id="@+id/btnChangeBackground"
+            >
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="יש לי מושג!"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textSize="60sp"
+            />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/ph1"
+                android:layout_gravity="end"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/musagimBsisiim"
+                >
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/shabatUmoadim"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ph2">
+
+            </ImageButton>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/ph3"
+                android:layout_gravity="end"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/berachotUtfila"
+                >
+
+            </ImageButton>
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/ph4"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/sfarimVeAnashim"
+                >
+
+            </ImageButton>
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/ph5"
+                android:layout_gravity="end"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/toraBealPe"
+                >
+
+            </ImageButton>
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/ph6"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/musagimShonim"
+                >
+
+            </ImageButton>
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/changeBackground"
+        >
+
+    </ImageView>
+</LinearLayout>
