@@ -12,7 +12,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             android:text="שנה רקע"
-            android:textColor="#FFF5F5"
+            android:textColor="#FFFFFF"
             android:backgroundTint="#000000"
             android:id="@+id/btnChangeBackground"
             >
